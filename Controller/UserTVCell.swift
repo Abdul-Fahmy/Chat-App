@@ -9,9 +9,17 @@ import UIKit
 
 class UserTVCell: UITableViewCell {
 
+    @IBOutlet weak var usersImageView: UIImageView!
+    
+    
+    @IBOutlet weak var nameLBL: UILabel!
+    
+    
+    @IBOutlet weak var emailLBL: UILabel!
+    
     override func awakeFromNib() {
         super.awakeFromNib()
-        // Initialization code
+        self.backgroundColor = .black
     }
 
     override func setSelected(_ selected: Bool, animated: Bool) {

@@ -8,7 +8,12 @@
 import UIKit
 
 class MyFriendsMessageTVCell: UITableViewCell {
-
+    
+    @IBOutlet weak var dateLBL: UILabel!
+    
+    
+    @IBOutlet weak var messageLBL: UILabel!
+    
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code

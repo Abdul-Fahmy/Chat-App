@@ -7,7 +7,19 @@
 
 import UIKit
 
-class myMessageTVCell: UITableViewCell {
+class MyMessageTVCell: UITableViewCell {
+    
+    @IBOutlet weak var dateLBL: UILabel!
+    
+    @IBOutlet weak var messageLBL: UILabel!
+    
+    
+    
+    
+    
+    
+    
+    
 
     override func awakeFromNib() {
         super.awakeFromNib()

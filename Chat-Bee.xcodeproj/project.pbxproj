@@ -7,23 +7,59 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		044B4249296AE97500E233ED /* OutgoingMessages.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044B4248296AE97500E233ED /* OutgoingMessages.swift */; };
+		044B424B296AEB1200E233ED /* Messages.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 044B424A296AEB1200E233ED /* Messages.storyboard */; };
+		044B424D296AEBA700E233ED /* MessageVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044B424C296AEBA700E233ED /* MessageVC.swift */; };
+		044B424F296AF94800E233ED /* MyMessageTVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044B424E296AF94800E233ED /* MyMessageTVCell.swift */; };
+		044B4251296AFA9200E233ED /* MyFriendsMessageTVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044B4250296AFA9200E233ED /* MyFriendsMessageTVCell.swift */; };
+		047A6E8F2969EC2300E831BE /* Refrences.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047A6E8B2969EC2300E831BE /* Refrences.swift */; };
+		047A6E902969EC2300E831BE /* FMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047A6E8C2969EC2300E831BE /* FMessage.swift */; };
+		047A6E912969EC2300E831BE /* FRecent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047A6E8D2969EC2300E831BE /* FRecent.swift */; };
+		047A6E922969EC2300E831BE /* FMessageType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047A6E8E2969EC2300E831BE /* FMessageType.swift */; };
 		047E414D2964A85D0003B288 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047E414C2964A85D0003B288 /* AppDelegate.swift */; };
 		047E414F2964A85D0003B288 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047E414E2964A85D0003B288 /* SceneDelegate.swift */; };
-		047E41512964A85D0003B288 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047E41502964A85D0003B288 /* ViewController.swift */; };
+		047E41512964A85D0003B288 /* MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047E41502964A85D0003B288 /* MainVC.swift */; };
 		047E41542964A85D0003B288 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 047E41522964A85D0003B288 /* Main.storyboard */; };
 		047E41562964A85F0003B288 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 047E41552964A85F0003B288 /* Assets.xcassets */; };
 		047E41592964A85F0003B288 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 047E41572964A85F0003B288 /* LaunchScreen.storyboard */; };
+		0487611F29689C0C00C331AA /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0487611E29689C0C00C331AA /* GoogleService-Info.plist */; };
+		0487612129689DF400C331AA /* Users.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0487612029689DF400C331AA /* Users.storyboard */; };
+		048761232968A23900C331AA /* UserTVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048761222968A23900C331AA /* UserTVCell.swift */; };
+		048761252968A31700C331AA /* UsersVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048761242968A31700C331AA /* UsersVC.swift */; };
+		04C240B62965E745007DFB3B /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C240B32965E745007DFB3B /* Constants.swift */; };
+		04C240B72965E745007DFB3B /* HelperFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C240B42965E745007DFB3B /* HelperFunctions.swift */; };
+		04C240B92965E74F007DFB3B /* FUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C240B82965E74F007DFB3B /* FUser.swift */; };
+		B67EA8238283CA86A2A90972 /* Pods_Chat_Bee.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 214F6E3AF992021DD1D44495 /* Pods_Chat_Bee.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		044B4248296AE97500E233ED /* OutgoingMessages.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = OutgoingMessages.swift; path = "../../ios course/lvl33/m.arafa/Desktop/iOS Diploma/LVL 3/17/RealZagChat/Model/OutgoingMessages.swift"; sourceTree = "<group>"; };
+		044B424A296AEB1200E233ED /* Messages.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Messages.storyboard; sourceTree = "<group>"; };
+		044B424C296AEBA700E233ED /* MessageVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageVC.swift; sourceTree = "<group>"; };
+		044B424E296AF94800E233ED /* MyMessageTVCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyMessageTVCell.swift; sourceTree = "<group>"; };
+		044B4250296AFA9200E233ED /* MyFriendsMessageTVCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyFriendsMessageTVCell.swift; sourceTree = "<group>"; };
+		047A6E8B2969EC2300E831BE /* Refrences.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Refrences.swift; path = "../../ios course/lvl32/m.arafa/Desktop/iOS Diploma/LVL 3/16/RealZagChat/Model/Refrences.swift"; sourceTree = "<group>"; };
+		047A6E8C2969EC2300E831BE /* FMessage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FMessage.swift; path = "../../ios course/lvl32/m.arafa/Desktop/iOS Diploma/LVL 3/16/RealZagChat/Model/FMessage.swift"; sourceTree = "<group>"; };
+		047A6E8D2969EC2300E831BE /* FRecent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FRecent.swift; path = "../../ios course/lvl32/m.arafa/Desktop/iOS Diploma/LVL 3/16/RealZagChat/Model/FRecent.swift"; sourceTree = "<group>"; };
+		047A6E8E2969EC2300E831BE /* FMessageType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FMessageType.swift; path = "../../ios course/lvl32/m.arafa/Desktop/iOS Diploma/LVL 3/16/RealZagChat/Model/FMessageType.swift"; sourceTree = "<group>"; };
 		047E41492964A85D0003B288 /* Chat-Bee.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Chat-Bee.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		047E414C2964A85D0003B288 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		047E414E2964A85D0003B288 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		047E41502964A85D0003B288 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		047E41502964A85D0003B288 /* MainVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainVC.swift; sourceTree = "<group>"; };
 		047E41532964A85D0003B288 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		047E41552964A85F0003B288 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		047E41582964A85F0003B288 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		047E415A2964A85F0003B288 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0487611E29689C0C00C331AA /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../GoogleService-Info.plist"; sourceTree = "<group>"; };
+		0487612029689DF400C331AA /* Users.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Users.storyboard; sourceTree = "<group>"; };
+		048761222968A23900C331AA /* UserTVCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserTVCell.swift; sourceTree = "<group>"; };
+		048761242968A31700C331AA /* UsersVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsersVC.swift; sourceTree = "<group>"; };
+		04C240B32965E745007DFB3B /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Constants.swift; path = "../../ios course/lvl31/m.arafa/Desktop/iOS Diploma/LVL 3/15/RealZagChat/Helper/Constants.swift"; sourceTree = "<group>"; };
+		04C240B42965E745007DFB3B /* HelperFunctions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HelperFunctions.swift; path = "../../ios course/lvl31/m.arafa/Desktop/iOS Diploma/LVL 3/15/RealZagChat/Helper/HelperFunctions.swift"; sourceTree = "<group>"; };
+		04C240B82965E74F007DFB3B /* FUser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FUser.swift; path = "../../ios course/lvl31/m.arafa/Desktop/iOS Diploma/LVL 3/15/RealZagChat/Model/FUser.swift"; sourceTree = "<group>"; };
+		0A1083DD0B0C26EE6F1FECD1 /* Pods-Chat-Bee.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Chat-Bee.debug.xcconfig"; path = "Target Support Files/Pods-Chat-Bee/Pods-Chat-Bee.debug.xcconfig"; sourceTree = "<group>"; };
+		214F6E3AF992021DD1D44495 /* Pods_Chat_Bee.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Chat_Bee.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A602684684FC40D4F33100B2 /* Pods-Chat-Bee.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Chat-Bee.release.xcconfig"; path = "Target Support Files/Pods-Chat-Bee/Pods-Chat-Bee.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +67,33 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B67EA8238283CA86A2A90972 /* Pods_Chat_Bee.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		001D2DE401FABA8E1401CA14 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				214F6E3AF992021DD1D44495 /* Pods_Chat_Bee.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		047E41402964A85D0003B288 = {
 			isa = PBXGroup;
 			children = (
+				047E41642964A8FD0003B288 /* Delegate */,
+				047E41632964A8A90003B288 /* Model */,
+				047E41622964A8940003B288 /* View */,
+				047E41612964A88A0003B288 /* Controller */,
+				047E41602964A8800003B288 /* Helper */,
 				047E414B2964A85D0003B288 /* Chat-Bee */,
 				047E414A2964A85D0003B288 /* Products */,
+				B1D54647E5FFCB99F6F9B163 /* Pods */,
+				001D2DE401FABA8E1401CA14 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +108,83 @@
 		047E414B2964A85D0003B288 /* Chat-Bee */ = {
 			isa = PBXGroup;
 			children = (
-				047E414C2964A85D0003B288 /* AppDelegate.swift */,
-				047E414E2964A85D0003B288 /* SceneDelegate.swift */,
-				047E41502964A85D0003B288 /* ViewController.swift */,
-				047E41522964A85D0003B288 /* Main.storyboard */,
 				047E41552964A85F0003B288 /* Assets.xcassets */,
-				047E41572964A85F0003B288 /* LaunchScreen.storyboard */,
 				047E415A2964A85F0003B288 /* Info.plist */,
+				0487611E29689C0C00C331AA /* GoogleService-Info.plist */,
 			);
 			path = "Chat-Bee";
+			sourceTree = "<group>";
+		};
+		047E41602964A8800003B288 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				04C240B32965E745007DFB3B /* Constants.swift */,
+				04C240B42965E745007DFB3B /* HelperFunctions.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		047E41612964A88A0003B288 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				047E41502964A85D0003B288 /* MainVC.swift */,
+				048761222968A23900C331AA /* UserTVCell.swift */,
+				048761242968A31700C331AA /* UsersVC.swift */,
+				044B424C296AEBA700E233ED /* MessageVC.swift */,
+				044B424E296AF94800E233ED /* MyMessageTVCell.swift */,
+				044B4250296AFA9200E233ED /* MyFriendsMessageTVCell.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		047E41622964A8940003B288 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				047E41652964A92E0003B288 /* Storyboards */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		047E41632964A8A90003B288 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				044B4248296AE97500E233ED /* OutgoingMessages.swift */,
+				04C240B82965E74F007DFB3B /* FUser.swift */,
+				047A6E8C2969EC2300E831BE /* FMessage.swift */,
+				047A6E8E2969EC2300E831BE /* FMessageType.swift */,
+				047A6E8D2969EC2300E831BE /* FRecent.swift */,
+				047A6E8B2969EC2300E831BE /* Refrences.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		047E41642964A8FD0003B288 /* Delegate */ = {
+			isa = PBXGroup;
+			children = (
+				047E414C2964A85D0003B288 /* AppDelegate.swift */,
+				047E414E2964A85D0003B288 /* SceneDelegate.swift */,
+			);
+			path = Delegate;
+			sourceTree = "<group>";
+		};
+		047E41652964A92E0003B288 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				047E41522964A85D0003B288 /* Main.storyboard */,
+				0487612029689DF400C331AA /* Users.storyboard */,
+				047E41572964A85F0003B288 /* LaunchScreen.storyboard */,
+				044B424A296AEB1200E233ED /* Messages.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		B1D54647E5FFCB99F6F9B163 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0A1083DD0B0C26EE6F1FECD1 /* Pods-Chat-Bee.debug.xcconfig */,
+				A602684684FC40D4F33100B2 /* Pods-Chat-Bee.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +194,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 047E415D2964A85F0003B288 /* Build configuration list for PBXNativeTarget "Chat-Bee" */;
 			buildPhases = (
+				25AAAA3BDF8C45567CC3E2FA /* [CP] Check Pods Manifest.lock */,
 				047E41452964A85D0003B288 /* Sources */,
 				047E41462964A85D0003B288 /* Frameworks */,
 				047E41472964A85D0003B288 /* Resources */,
+				21F1E7AD4BA839B3EB4BB675 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -125,7 +247,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				044B424B296AEB1200E233ED /* Messages.storyboard in Resources */,
 				047E41592964A85F0003B288 /* LaunchScreen.storyboard in Resources */,
+				0487612129689DF400C331AA /* Users.storyboard in Resources */,
+				0487611F29689C0C00C331AA /* GoogleService-Info.plist in Resources */,
 				047E41562964A85F0003B288 /* Assets.xcassets in Resources */,
 				047E41542964A85D0003B288 /* Main.storyboard in Resources */,
 			);
@@ -133,14 +258,69 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		21F1E7AD4BA839B3EB4BB675 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Chat-Bee/Pods-Chat-Bee-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Chat-Bee/Pods-Chat-Bee-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Chat-Bee/Pods-Chat-Bee-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		25AAAA3BDF8C45567CC3E2FA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Chat-Bee-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		047E41452964A85D0003B288 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				047E41512964A85D0003B288 /* ViewController.swift in Sources */,
+				04C240B62965E745007DFB3B /* Constants.swift in Sources */,
+				044B424F296AF94800E233ED /* MyMessageTVCell.swift in Sources */,
+				047E41512964A85D0003B288 /* MainVC.swift in Sources */,
 				047E414D2964A85D0003B288 /* AppDelegate.swift in Sources */,
+				047A6E8F2969EC2300E831BE /* Refrences.swift in Sources */,
+				044B424D296AEBA700E233ED /* MessageVC.swift in Sources */,
+				04C240B92965E74F007DFB3B /* FUser.swift in Sources */,
+				044B4251296AFA9200E233ED /* MyFriendsMessageTVCell.swift in Sources */,
+				048761232968A23900C331AA /* UserTVCell.swift in Sources */,
+				044B4249296AE97500E233ED /* OutgoingMessages.swift in Sources */,
+				047A6E902969EC2300E831BE /* FMessage.swift in Sources */,
+				047A6E912969EC2300E831BE /* FRecent.swift in Sources */,
 				047E414F2964A85D0003B288 /* SceneDelegate.swift in Sources */,
+				04C240B72965E745007DFB3B /* HelperFunctions.swift in Sources */,
+				047A6E922969EC2300E831BE /* FMessageType.swift in Sources */,
+				048761252968A31700C331AA /* UsersVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -284,6 +464,7 @@
 		};
 		047E415E2964A85F0003B288 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0A1083DD0B0C26EE6F1FECD1 /* Pods-Chat-Bee.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -297,6 +478,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -312,6 +494,7 @@
 		};
 		047E415F2964A85F0003B288 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A602684684FC40D4F33100B2 /* Pods-Chat-Bee.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -325,6 +508,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
